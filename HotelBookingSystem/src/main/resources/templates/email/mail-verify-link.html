@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head><title></title></head>
+<body>
+<h3>Xin chào, <span th:text="${name}"></span>!</h3>
+<p>Vui lòng xác minh email của bạn bằng cách nhấn vào liên kết dưới đây:</p>
+<p><a th:href="${verifyLink}" target="_blank">Xác minh tài khoản</a></p>
+<p>Liên kết này sẽ hết hạn sau <b th:text="${expireMinutes}"></b> phút.</p>
+</body>
+</html>

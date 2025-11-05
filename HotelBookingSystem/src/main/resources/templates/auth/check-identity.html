@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Xác minh danh tính</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h2>Xác minh danh tính</h2>
+<p>Vui lòng nhập <b>email</b> hoặc <b>số điện thoại</b> để chúng tôi gửi mã xác minh.</p>
+
+<form th:action="@{/auth/check-identity}" method="post">
+    <label>Email hoặc Số điện thoại</label>
+    <input type="text" name="identity" placeholder="example@gmail.com hoặc 0912xxxxxx" required>
+
+    <button type="submit">Gửi mã xác minh</button>
+</form>
+
+<p><a th:href="@{/auth/login}">← Quay lại đăng nhập</a></p>
+</body>
+</html>

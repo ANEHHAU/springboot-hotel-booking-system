@@ -1,4 +1,4 @@
-package com.maitrunghau.hotelbookingsystem.controller;
+package com.maitrunghau.hotelbookingsystem.controller.testing;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

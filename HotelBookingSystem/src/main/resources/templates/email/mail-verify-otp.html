@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mã OTP xác thực</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+<h2>Xác thực đăng ký tài khoản</h2>
+<p>Xin chào <b th:text="${name}"></b>,</p>
+<p>Mã OTP của bạn là:</p>
+<h1 style="color: #2a7fff;" th:text="${otp}"></h1>
+<p>Mã này có hiệu lực trong <span th:text="${expireMinutes}"></span> phút.</p>
+<p>Vui lòng không chia sẻ mã này với bất kỳ ai.</p>
+</body>
+</html>
