@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+<h2>👑 Trang quản trị</h2>
+<p th:text="'Xin chào, ' + ${#authentication.name}"></p>
+<a href="/auth/logout">Đăng xuất</a>
+</body>
+</html>

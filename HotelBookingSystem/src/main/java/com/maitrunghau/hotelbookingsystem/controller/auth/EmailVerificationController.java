@@ -1,4 +1,4 @@
-package com.maitrunghau.hotelbookingsystem.controller.testing;
+package com.maitrunghau.hotelbookingsystem.controller.auth;
 
 import com.maitrunghau.hotelbookingsystem.model.AuthToken;
 import com.maitrunghau.hotelbookingsystem.model.TokenType;

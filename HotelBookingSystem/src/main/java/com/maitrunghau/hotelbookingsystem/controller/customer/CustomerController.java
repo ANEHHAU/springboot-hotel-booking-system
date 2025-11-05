@@ -1,4 +1,4 @@
-package com.maitrunghau.hotelbookingsystem.controller;
+package com.maitrunghau.hotelbookingsystem.controller.customer;
 
 import com.maitrunghau.hotelbookingsystem.dto.CustomerDTO;
 import com.maitrunghau.hotelbookingsystem.model.Customer;

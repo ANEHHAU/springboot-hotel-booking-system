@@ -1,4 +1,4 @@
-package com.maitrunghau.hotelbookingsystem.controller;
+package com.maitrunghau.hotelbookingsystem.controller.cloud;
 
 import com.maitrunghau.hotelbookingsystem.response.ApiResponse;
 import com.maitrunghau.hotelbookingsystem.service.CloudinaryService;
