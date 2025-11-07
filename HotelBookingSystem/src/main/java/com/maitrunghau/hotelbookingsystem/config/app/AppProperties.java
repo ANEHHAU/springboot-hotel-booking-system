@@ -1,4 +1,4 @@
-package com.maitrunghau.hotelbookingsystem.config;
+package com.maitrunghau.hotelbookingsystem.config.app;
 
 import lombok.Getter;
 import lombok.Setter;
